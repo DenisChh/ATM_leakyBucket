@@ -63,6 +63,7 @@ calcul_performance.o: calcul_performance.c
 
 # Clean
 clean :
-	rm -r *.o
-	rm -r Fenetre
+	rm -rf *.o
 
+fclean: clean
+	rm -rf Fenetre
